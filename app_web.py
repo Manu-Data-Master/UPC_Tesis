@@ -640,7 +640,6 @@ else:
                                                 (120,467), 
                                                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,255), 2, cv2.LINE_AA)
                                     
-
                                     cv2.line(image, (right_arm_x1, right_arm_y1), (right_arm_x2, right_arm_y2), (242, 14, 14), 3)
                                     cv2.line(image, (right_arm_x2, right_arm_y2), (right_arm_x3, right_arm_y3), (242, 14, 14), 3)
                                     cv2.circle(image, (right_arm_x1, right_arm_y1), 6, (128, 0, 255),-1)
